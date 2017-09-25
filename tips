@@ -44,3 +44,6 @@ imagesc(magic(15)), colorbar, colormap gray;
 % comma-chaining function calls.  
 a=1,b=2,c=3
 a=1;b=2;c=3;
+
+addpath('/path/to/function/') %增加路径
+savepath %记住路径 下次不必add
