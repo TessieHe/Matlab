@@ -17,6 +17,7 @@ C = [A; B] % Concatenating A and B top and bottom
 find(a < 3) % gives location of elements less than 3
 [r,c] = find(A>=7)  % row, column indices for values matching comparison
 
+############################################   画图  ＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
 t= [0:0.01:0.98];
 y1 = sin(2*pi*4*t); 
 plot(t,y1);
@@ -37,6 +38,11 @@ plot(t,y1);
 subplot(1,2,2);  % Divide plot into 1x2 grid, access 2nd element
 plot(t,y2);
 axis([0.5 1 -1 1]);  % change axis scale
+text(1.5,0.3,'cos(x)')    %将cosx这个注解加到坐标中的某个位置
+gtext('sin(x)')      % 用鼠标的光标定位,将sinx这个注解放在你鼠标点击的地方
+ 
+
+
 
 %% display a matrix (or image) 
 figure;
