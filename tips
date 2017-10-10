@@ -47,3 +47,5 @@ a=1;b=2;c=3;
 
 addpath('/path/to/function/') %增加路径
 savepath %记住路径 下次不必add
+
+%多行注释 ctrl+r/t
